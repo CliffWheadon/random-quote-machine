@@ -7,8 +7,8 @@ class RandomQuoteBox extends React.Component {
     render() {
         return (
             <div id={'quote-box'} className={'quote-box'}>
-                <p id={'text'} className={'text'}>This is where a quote will go.</p>
-                <p id={'author'} className={'author'}>Author Name</p>
+                <p id={'text'} className={'text'}>Technically, this is a quote.</p>
+                <p id={'author'} className={'author'}>Clifford Wheadon</p>
 
                 <a className={'button'} id={'tweet-quote'}></a>
                 <a className={'button'} id={'new-quote'}>New quote</a>
